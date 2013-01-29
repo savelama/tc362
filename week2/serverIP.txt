@@ -1,0 +1,16 @@
+Server IP: 166.78.3.143
+
+
+1/22/13
+    - Added a user account for myself with password
+    - Added user 'jeff' with password
+    - Assigned my user account and 'jeff' to group 'webprod'
+    - Gave group 'webprod' read/write permissions to public web folder ('/var/www/')
+
+1/27/13
+	- Granted my user account SUDO access
+	- Updated SSH port to specified value
+	- Removed SSH login privileges for root user
+	- Created UNIX group 'ssh-users'
+	- Added both our users to group 'ssh-users'
+	- Restricted SSH access to only group 'ssh-users'
