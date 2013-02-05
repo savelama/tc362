@@ -1,0 +1,26 @@
+Server IP: 166.78.3.143
+
+1. How many files are in /usr/bin directory?
+     Answer: 481
+     Explanation: I ran the command 'find . -type f | wc -l'. The command 'find . -type f' prints a list of all files (-type f) in the current directory (.). This information is then piped to the command 'wc -l', which prints the number of newline counts. Since each file is on a newline, this number is the number of files in the directory.
+
+2. Identify the server process with the highest memory usage
+     Answer: apache2
+     Explanation: I ran the command 'top', and then sorted by memory usage by pressing Shift + M
+
+3. What is your server's timezone?
+     Answer: UTC
+     Explanation: I ran the 'date' command, which displays the server timezone as part of the response
+
+4. How many default groups does your Ubuntu distribution have?
+     Answer: 53
+     Explanation: I ran the command 'cat /etc/group | wc -l', which reported that there were 57 groups currently on my server. I then displayed the contents of the file /etc/group, and saw that there were 4 groups that I had made, meaning that 53 were default groups
+
+5. Download, un-tar, and execute the following PHP file (362.tar) from the command line on your server. What is the output? Bonus: Name the sequence!
+     Answer: 0,1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181
+     Bonus: Fibonacci sequence
+     Explanation:
+	a. I downloaded the file to /var/www/week3/ using the command: 'wget http://cl.ly/2F0Q1r2y3K0l/362.tar'
+	b. I un-tarred the file by using the command: 'tar -xvf 362.tar'
+	c. I installed and configured PHP on the server by running the commands: 'sudo apt-get install php5' and 'sudo apt-get install php5 libapache2-mod-php5'
+	d. After that, I executed the command: 'php /var/www/week3/362.php'
