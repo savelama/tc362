@@ -1,0 +1,10 @@
+Primary Domain: http://www.mattsavela.info/
+Sub-domain (sub1): http://sub1.mattsavela.info/
+Sub-domain (sub2): http://sub2.mattsavela.info/
+Sub-domain (sub3): http://sub3.mattsavela.info/
+IP Address: 166.78.3.143
+
+The Primary Domain contains the previous weeks work with the 'Hello, World!' assignment.
+sub1 contains my final project website from TC349 last semester.
+
+I also added the sub2 and sub3 domains for testing. They both just contain a temporary landing page.
